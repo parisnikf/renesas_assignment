@@ -17,6 +17,13 @@ private:
     QVector<int> cycleData_;
     int timestep;
     QString timeUnit;
+    qreal scaleFactor;
+    QPoint lastMousePos;
+    bool isMousePressed;
+    qreal zoomFactor;
+    void zoom(int delta);
+    bool isDragging;
+    int dragStartX;
 
 protected:
     void paintEvent(QPaintEvent* event) override;
