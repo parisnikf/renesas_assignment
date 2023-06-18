@@ -1,6 +1,6 @@
 # renesas_assignment
 
-Project Requirements:
+#Project Requirements:
 
 Create a Qt application to render digital signals satisfying the following:
 -Functional requirements:
@@ -27,7 +27,7 @@ Non-functional requirements:
 	Publish the code and share the link with us.
 -Development environment and build requirements:
 	Use CMake as a build automation tool.
-T-esting requirements:
+Testing requirements:
 	[Optional] Integrate Google test library into the project.
 	[Optional] Add a few tests for the most critical part of the application.
 Other requirements:
@@ -35,14 +35,14 @@ Other requirements:
 	-Spend at most 10 hours on the project
 	
 	
-Build:
+#Build:
 Project has been implemented using QTCreator with Desktop Qt 6.5.1 MinGW 64-bit
 CMakeLists.txt has been added.
 
-Issues:
+#Issues:
 Horizontally scrolling needs improvement to work correctly.
 
-Possible Improvements:
+#Possible Improvements:
 Also for the better performance for a fix size data structure we could use ring/circular buffer.
 A progress bar that will show the progress of the file import while at the same time the application paints the current data.
 That way the user will know when the import has finished.
