@@ -27,12 +27,13 @@ Non-functional requirements:
 	Publish the code and share the link with us.
 -Development environment and build requirements:
 	Use CMake as a build automation tool.
-T-esting requirements:
+Testing requirements:
 	[Optional] Integrate Google test library into the project.
 	[Optional] Add a few tests for the most critical part of the application.
 Other requirements:
 	-Avoid using third-party libraries except for the Qt Framework and GoogleTest.
-	-Spend at most 10 hours on the project
+	-Spend at most 10 hours on the project	
+	
 	
 	
 Build:
