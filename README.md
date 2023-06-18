@@ -34,7 +34,7 @@ Other requirements:
 	-Avoid using third-party libraries except for the Qt Framework and GoogleTest.
 	-Spend at most 10 hours on the project	
 	
-	
+![alt text](https://github.com/parisnikf/renesas_assignment/blob/main/renesas_assignment/application_gui.png?raw=true)	
 	
 Build:
 Project has been implemented using QTCreator with Desktop Qt 6.5.1 MinGW 64-bit
