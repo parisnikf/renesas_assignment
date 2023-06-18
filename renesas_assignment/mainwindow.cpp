@@ -117,6 +117,7 @@ void MainWindow::importData()
  * */
 void MainWindow::handleDataLoaded(const QVector<int>& data, int step, const QString& timeUnits)
 {
+    signalWidget_->setData(data, step, timeUnits);
     //Here we should call the function that will paint inide the widget and will update accordingly the window-widget
 }
 

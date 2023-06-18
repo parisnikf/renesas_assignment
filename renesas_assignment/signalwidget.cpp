@@ -9,7 +9,9 @@
 SignalWidget::SignalWidget(QWidget* parent) : QWidget(parent) {
     setFocusPolicy(Qt::StrongFocus);
     setMouseTracking(true);
-
+    zoomFactor = 1.0;
+    isDragging = false;
+    dragStartX = 0;
 
     // Create a scroll area and set this widget as its child
     scrollArea = new QScrollArea(parent);
@@ -22,7 +24,6 @@ SignalWidget::SignalWidget(QWidget* parent) : QWidget(parent) {
     scrollArea->setStyleSheet("background-color: transparent;");
     scrollArea->setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOn);
     scrollArea->setVerticalScrollBarPolicy(Qt::ScrollBarAlwaysOff);
-
 
 }
 
@@ -52,9 +53,8 @@ void SignalWidget::paintEvent(QPaintEvent* event)
     upperRect.setHeight(yOffset + 100);
 
     upperRect.setWidth(upperRect.width()+dataSize*timestep);
-
+    painter.scale(zoomFactor,zoomFactor);
     painter.fillRect(upperRect, Qt::black);
-
     painter.setPen(Qt::green);
 
     //int dataWidth = width() - 2 * xOffset;
@@ -102,3 +102,63 @@ void SignalWidget::paintEvent(QPaintEvent* event)
         }
     }
 }
+
+void SignalWidget::wheelEvent(QWheelEvent* event)
+{    zoom(event->angleDelta().y() / 120); // Adjust the zoom step as desired
+}
+
+
+void SignalWidget::zoom(int delta)
+{
+    const qreal zoomInFactor = 1.1;
+    const qreal zoomOutFactor = -1 / zoomInFactor;
+    const qreal zoomStep = 0.05; // Adjust the zooming step as desired
+
+    qreal zoomChange = 0.0;
+    if (delta > 0) {
+        // Zoom in
+        zoomChange = zoomInFactor;
+    } else {
+        // Zoom out
+        zoomChange = zoomOutFactor;
+    }
+
+    // Calculate the incremental zoom factor
+    qreal zoomFactorIncremental = zoomFactor * (1.0 + zoomChange * zoomStep);
+
+    // Ensure zoom factor stays within a reasonable range
+    const qreal minZoomFactor = 0.1;
+    const qreal maxZoomFactor = 10.0;
+    zoomFactor = qBound(minZoomFactor, zoomFactorIncremental, maxZoomFactor);
+
+    // Trigger a repaint to apply the zoom
+    update();
+}
+
+
+void SignalWidget::mousePressEvent(QMouseEvent* event)
+{
+    if (event->button() == Qt::LeftButton) {
+        isDragging = true;
+        dragStartX = event->pos().x();
+    }
+}
+
+void SignalWidget::mouseMoveEvent(QMouseEvent* event)
+{
+    if (isDragging) {
+        int deltaX = event->pos().x() - dragStartX;
+        dragStartX = event->pos().x();
+        scrollArea->horizontalScrollBar()->setValue(scrollArea->horizontalScrollBar()->value() - deltaX);
+    }
+}
+
+void SignalWidget::mouseReleaseEvent(QMouseEvent* event)
+{
+    if (event->button() == Qt::LeftButton) {
+        isDragging = false;
+    }
+}
+
+
+

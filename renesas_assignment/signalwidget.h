@@ -24,6 +24,7 @@ private:
     void zoom(int delta);
     bool isDragging;
     int dragStartX;
+    int dragX;
 
 protected:
     void paintEvent(QPaintEvent* event) override;

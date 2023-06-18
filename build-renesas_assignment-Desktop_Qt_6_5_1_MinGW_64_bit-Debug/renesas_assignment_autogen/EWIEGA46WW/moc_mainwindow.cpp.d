@@ -138,7 +138,10 @@ C:/Users/Main/Documents/renesas_assignment/build-renesas_assignment-Desktop_Qt_6
   C:/Qt/6.5.1/mingw_64/include/QtGui/qwindowdefs_win.h \
   C:/Qt/6.5.1/mingw_64/include/QtWidgets/QMainWindow \
   C:/Qt/6.5.1/mingw_64/include/QtWidgets/QWidget \
+  C:/Qt/6.5.1/mingw_64/include/QtWidgets/qabstractscrollarea.h \
+  C:/Qt/6.5.1/mingw_64/include/QtWidgets/qframe.h \
   C:/Qt/6.5.1/mingw_64/include/QtWidgets/qmainwindow.h \
+  C:/Qt/6.5.1/mingw_64/include/QtWidgets/qscrollarea.h \
   C:/Qt/6.5.1/mingw_64/include/QtWidgets/qsizepolicy.h \
   C:/Qt/6.5.1/mingw_64/include/QtWidgets/qtabwidget.h \
   C:/Qt/6.5.1/mingw_64/include/QtWidgets/qtwidgets-config.h \
