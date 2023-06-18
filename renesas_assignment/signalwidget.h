@@ -1,0 +1,4 @@
+#ifndef SIGNALWIDGET_H
+#define SIGNALWIDGET_H
+
+#endif // SIGNALWIDGET_H

@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-113b60da938503050c28.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "renesas_assignment",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "renesas_assignment::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-renesas_assignment-Debug-003e37ebb88f2ad52073.json",
+					"name" : "renesas_assignment",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "renesas_assignment_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-renesas_assignment_autogen-Debug-8ea1902e06f59a2f16db.json",
+					"name" : "renesas_assignment_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "renesas_assignment_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-renesas_assignment_autogen_timestamp_deps-Debug-aa8cd2b7e0bce61665dc.json",
+					"name" : "renesas_assignment_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Main/Documents/renesas_assignment/build-renesas_assignment-Desktop_Qt_6_5_1_MinGW_64_bit-Debug",
+		"source" : "C:/Users/Main/Documents/renesas_assignment/renesas_assignment"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
