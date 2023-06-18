@@ -1,0 +1,9 @@
+# ninja log v5
+1	615	7087899805137779	renesas_assignment_autogen/timestamp	498b2b9bd70508e9
+1	615	7087899805137779	renesas_assignment_autogen/mocs_compilation.cpp	498b2b9bd70508e9
+1	615	7087899805137779	C:/Users/Main/Documents/renesas_assignment/build-renesas_assignment-Desktop_Qt_6_5_1_MinGW_64_bit-Debug/renesas_assignment_autogen/timestamp	498b2b9bd70508e9
+1	615	7087899805137779	C:/Users/Main/Documents/renesas_assignment/build-renesas_assignment-Desktop_Qt_6_5_1_MinGW_64_bit-Debug/renesas_assignment_autogen/mocs_compilation.cpp	498b2b9bd70508e9
+616	2006	7087899820441466	CMakeFiles/renesas_assignment.dir/renesas_assignment_autogen/mocs_compilation.cpp.obj	c6c31ea54b3e21bb
+619	2041	7087899820791427	CMakeFiles/renesas_assignment.dir/main.cpp.obj	3a466f511a0c8090
+621	2089	7087899821276525	CMakeFiles/renesas_assignment.dir/mainwindow.cpp.obj	34236c9ee3c3d15e
+2090	2208	7087899822401658	renesas_assignment.exe	a0ab85d543ac88c2
