@@ -1,5 +1,6 @@
 C:/Users/Main/Documents/renesas_assignment/build-renesas_assignment-Desktop_Qt_6_5_1_MinGW_64_bit-Debug/renesas_assignment_autogen/EWIEGA46WW/moc_mainwindow.cpp: C:/Users/Main/Documents/renesas_assignment/renesas_assignment/mainwindow.h \
   C:/Users/Main/Documents/renesas_assignment/build-renesas_assignment-Desktop_Qt_6_5_1_MinGW_64_bit-Debug/renesas_assignment_autogen/moc_predefs.h \
+  C:/Qt/6.5.1/mingw_64/include/QtCore/QThread \
   C:/Qt/6.5.1/mingw_64/include/QtCore/q20memory.h \
   C:/Qt/6.5.1/mingw_64/include/QtCore/q20type_traits.h \
   C:/Qt/6.5.1/mingw_64/include/QtCore/qalgorithms.h \
@@ -28,7 +29,9 @@ C:/Users/Main/Documents/renesas_assignment/build-renesas_assignment-Desktop_Qt_6
   C:/Qt/6.5.1/mingw_64/include/QtCore/qcontiguouscache.h \
   C:/Qt/6.5.1/mingw_64/include/QtCore/qdarwinhelpers.h \
   C:/Qt/6.5.1/mingw_64/include/QtCore/qdatastream.h \
+  C:/Qt/6.5.1/mingw_64/include/QtCore/qdeadlinetimer.h \
   C:/Qt/6.5.1/mingw_64/include/QtCore/qdebug.h \
+  C:/Qt/6.5.1/mingw_64/include/QtCore/qelapsedtimer.h \
   C:/Qt/6.5.1/mingw_64/include/QtCore/qexceptionhandling.h \
   C:/Qt/6.5.1/mingw_64/include/QtCore/qflags.h \
   C:/Qt/6.5.1/mingw_64/include/QtCore/qfloat16.h \
@@ -92,6 +95,7 @@ C:/Users/Main/Documents/renesas_assignment/build-renesas_assignment-Desktop_Qt_6
   C:/Qt/6.5.1/mingw_64/include/QtCore/qtdeprecationmarkers.h \
   C:/Qt/6.5.1/mingw_64/include/QtCore/qtenvironmentvariables.h \
   C:/Qt/6.5.1/mingw_64/include/QtCore/qtextstream.h \
+  C:/Qt/6.5.1/mingw_64/include/QtCore/qthread.h \
   C:/Qt/6.5.1/mingw_64/include/QtCore/qtmetamacros.h \
   C:/Qt/6.5.1/mingw_64/include/QtCore/qtnoop.h \
   C:/Qt/6.5.1/mingw_64/include/QtCore/qtpreprocessorsupport.h \
@@ -133,6 +137,7 @@ C:/Users/Main/Documents/renesas_assignment/build-renesas_assignment-Desktop_Qt_6
   C:/Qt/6.5.1/mingw_64/include/QtGui/qwindowdefs.h \
   C:/Qt/6.5.1/mingw_64/include/QtGui/qwindowdefs_win.h \
   C:/Qt/6.5.1/mingw_64/include/QtWidgets/QMainWindow \
+  C:/Qt/6.5.1/mingw_64/include/QtWidgets/QWidget \
   C:/Qt/6.5.1/mingw_64/include/QtWidgets/qmainwindow.h \
   C:/Qt/6.5.1/mingw_64/include/QtWidgets/qsizepolicy.h \
   C:/Qt/6.5.1/mingw_64/include/QtWidgets/qtabwidget.h \
@@ -264,6 +269,7 @@ C:/Users/Main/Documents/renesas_assignment/build-renesas_assignment-Desktop_Qt_6
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/string_conversions.h \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/type_traits.h \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/functional \
+  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/future \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/initializer_list \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ios \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iosfwd \
@@ -354,4 +360,5 @@ C:/Users/Main/Documents/renesas_assignment/build-renesas_assignment-Desktop_Qt_6
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/time.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
-  C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wctype.h
+  C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wctype.h \
+  C:/Users/Main/Documents/renesas_assignment/renesas_assignment/signalwidget.h
