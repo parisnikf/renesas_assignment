@@ -35,6 +35,16 @@ Other requirements:
 	-Spend at most 10 hours on the project
 	
 	
+	
+	![application_gui](https://github.com/parisnikf/renesas_assignment/assets/136610845/93582f16-bd57-4116-b0b9-ee50a4062c4a)
+
+	
+	
+	
+	
+	
+	
+	
 Build:
 Project has been implemented using QTCreator with Desktop Qt 6.5.1 MinGW 64-bit
 CMakeLists.txt has been added.
