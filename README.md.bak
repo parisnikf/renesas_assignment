@@ -33,19 +33,3 @@ T-esting requirements:
 Other requirements:
 	-Avoid using third-party libraries except for the Qt Framework and GoogleTest.
 	-Spend at most 10 hours on the project
-	
-	
-Build:
-Project has been implemented using QTCreator with Desktop Qt 6.5.1 MinGW 64-bit
-CMakeLists.txt has been added.
-
-Issues:
-Horizontally scrolling needs improvement to work correctly.
-
-Possible Improvements:
-Also for the better performance for a fix size data structure we could use ring/circular buffer.
-A progress bar that will show the progress of the file import while at the same time the application paints the current data.
-That way the user will know when the import has finished.
-
-
-
