@@ -32,16 +32,7 @@ Testing requirements:
 	[Optional] Add a few tests for the most critical part of the application.
 Other requirements:
 	-Avoid using third-party libraries except for the Qt Framework and GoogleTest.
-	-Spend at most 10 hours on the project
-	
-	
-	
-	![application_gui](https://github.com/parisnikf/renesas_assignment/assets/136610845/93582f16-bd57-4116-b0b9-ee50a4062c4a)
-
-	
-	
-	
-	
+	-Spend at most 10 hours on the project	
 	
 	
 	
